@@ -7,4 +7,5 @@ def fact(x):
     return x * fact(x - 1)
 
 x=int(raw_input())
-print fact(x)
+
+print fact(x) 
