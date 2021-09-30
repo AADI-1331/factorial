@@ -1,11 +1,11 @@
 #Hints:
 #In case of input data being supplied to the question, it should be assumed to be a console input.
 
-def fact(x):
-    if x == 0:
+def fact(n):
+    if n == 0:
         return 1
-    return x * fact(x - 1)
+    return n * fact(n - 1)
 
-x=int(raw_input())
+n=int(raw_input())
 
-print fact(x) 
+print fact(n) 
