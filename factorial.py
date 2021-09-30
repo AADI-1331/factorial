@@ -6,6 +6,6 @@ def fact(n):
         return 1
     return n * fact(n - 1)
 
-n=int(raw_input())
+n=int(console_input())
 
 print fact(n) 
